@@ -1,0 +1,24 @@
+{
+  "name": "static-so-elegant",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "brunch w --server",
+    "build": "brunch b -p"
+  },
+  "dependencies": {
+    "ecstatic": "^3.0.0"
+  },
+  "devDependencies": {
+    "basscss": "^8.0.2",
+    "fs-extra": "^4.0.2",
+    "auto-reload-brunch": "^2",
+    "brunch": "^2",
+    "holderjs": "^2.9.4",
+    "jquery": "^3.2.1",
+    "pugjs-brunch": "^2.10.0",
+    "semantic-ui-css": "^2.2.12",
+    "stylus-brunch": "^2.10.0",
+    "uglify-js-brunch": "^2"
+  }
+}

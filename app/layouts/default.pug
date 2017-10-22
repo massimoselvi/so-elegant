@@ -1,0 +1,16 @@
+include /util
+
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    link(rel="stylesheet" href=abs("/vendor.css"))
+    link(rel="stylesheet" href=abs("/app.css"))
+    script(type='text/javascript' src=abs('/vendor.js') defer)
+    script(type='text/javascript' src=abs('/app.js') defer)
+    block head
+    title Untitled
+  body
+    block body
